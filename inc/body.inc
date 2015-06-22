@@ -1,0 +1,1 @@
+<body class="off-canvas hide-extras" id="page-<!--#echo var="myid" -->">

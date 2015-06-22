@@ -1,0 +1,21 @@
+/* TEAM */
+		Project Lead: Chris Flegg - Secretary, EBSLG                       
+		Site: http://www.ebslg.org/contact/                                             
+		Location: Oxford, UK.                     
+                         
+		Web Developer: John Pilbeam - Webmaster, EBSLG                        
+		Site: http://www.ebslg.org/contact/                            
+		Twitter: @jpilbeam                    
+		Location: Oxford, UK.
+
+/* SITE */
+		Standards: HTML5, CSS3
+		Components: jQuery, Orbit, Reveal
+		Software: BBEdit, Transmit, Photoshop
+
+/* THANKS */
+		This site uses the Foundation UI framwork by ZURB, an interaction design and design strategy firm in Campbell, CA, USA.
+		zurb.com
+	
+		humans.txt for this text file standard.
+		humanstxt.org
