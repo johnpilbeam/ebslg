@@ -40,6 +40,19 @@
 						</ul>
   					</div>
 				</div><!-- /row -->
+				<div class="row">
+  					<div class="large-2 small-1 columns">
+  					  	<ul class="side-nav" style="padding-top:0; margin-top:0;">
+							<li><a href="http://www.isb.edu/apbslg/"><i class="gen-enclosed foundicon-globe"></i></a></li>
+						</ul>
+  					</div>					 					
+  					<div class="large-10 small-11 columns">
+  						<ul class="side-nav" style="padding-top:0; margin-top:0;">
+							<li><a href="http://cladea.org/index.php?option=com_content&view=article&id=228&Itemid=326&lang=es">CLADEA – Latin American Council of Management Schools</a></li>
+						</ul>
+  					</div>
+				</div><!-- /row -->
+
 												
 	</div><!-- /panel inverted -->
 	
