@@ -1,6 +1,6 @@
 <div class="row show-for-small">
 	<div class="small-12 columns small-logo">
-		<img src="/img/banner-globe-europe-small.png" width="100%" />
+		<img src="/img/banner-globe-europe-small.png" alt="" />
 	</div>
 </div>
 
