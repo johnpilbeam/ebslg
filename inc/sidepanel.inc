@@ -71,7 +71,7 @@
 				<hr />
 				<div class="row">
   				<h5>Northern Group Meeting</h5>
-  				<p>The next Northern group meeting will be held at <a href="http://www.whu.edu/en/">WHU – Otto Beisheim School of Management</a> on 27th and 28th October 2015.</p>
+  				<p>The most recent Northern group meeting was held at <a href="http://www.whu.edu/en/">WHU – Otto Beisheim School of Management</a> on 27th and 28th October 2015.</p>
 				</div><!-- /row -->
 	
 										
