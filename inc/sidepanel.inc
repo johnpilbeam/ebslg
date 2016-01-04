@@ -66,7 +66,7 @@
 				<hr />
 				<div class="row">
   				<h5>Continental Group Meeting</h5>
-  				<p>The most recent Continental group meeting was held at <a href="http://www.dauphine.fr/">Université Paris-Dauphine</a> on 12th and 13th March 2015.</p>
+  				<p>The next Continental group meeting will be held at the <a href="http://www.ef.uni-lj.si/cel">University of Ljubljana</a> on Monday 26th and Tuesday 27th September 2016.</p>
   				</div><!-- /row -->
 				<hr />
 				<div class="row">
