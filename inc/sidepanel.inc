@@ -61,7 +61,7 @@
 				<h4>Regional News</h4>
 				<hr />
 				  				<h5>Anglophone Group Meeting</h5>
-  				<p>The most recent Anglophone group meeting was held at <a href="http://www.cranfield.ac.uk/">Cranfield University</a> on 15th and 16th January 2015.</p>
+  				<p>The most recent Anglophone group meeting was held at <a href="http://www.business-school.ed.ac.uk">University of Edinburgh Business School</a> on 21st and 22nd January 2016.</p>
 				</div><!-- /row -->
 				<hr />
 				<div class="row">
