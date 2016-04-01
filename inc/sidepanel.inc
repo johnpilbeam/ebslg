@@ -60,19 +60,11 @@
 				<div class="row">
 				<h4>Regional News</h4>
 				<hr />
-				  				<h5>Anglophone Group Meeting</h5>
-  				<p>The most recent Anglophone group meeting was held at the <a href="http://www.business-school.ed.ac.uk">University of Edinburgh Business School</a> on 21st and 22nd January 2016.</p>
-				</div><!-- /row -->
-				<hr />
-				<div class="row">
-  				<h5>Continental Group Meeting</h5>
-  				<p>The next Continental group meeting will be held at the <a href="http://www.ef.uni-lj.si/cel">University of Ljubljana</a> on 26th and 27th September 2016.</p>
-  				</div><!-- /row -->
-				<hr />
-				<div class="row">
-  				<h5>Northern Group Meeting</h5>
-  				<p>The most recent Northern group meeting was held at <a href="http://www.whu.edu/en/">WHU – Otto Beisheim School of Management</a> on 27th and 28th October 2015.</p>
-				</div><!-- /row -->
+			<!-- Goodbye Roogly -->
+  					<p>The EBSLG wishes to acknowledge the very deep sadness of all the members at the loss of our much esteemed and respected colleague and friend, Jane Marshall, Academic Engagement Librarian at the University of Manchester, who passed away tragically on Friday 25th, 2016.</p>
+<!-- /Goodbye Roogly -->
+
+							</div><!-- /row -->
 	
 										
 	</div><!-- /panel inverted -->
