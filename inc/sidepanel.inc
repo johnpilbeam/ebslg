@@ -15,6 +15,19 @@
   					</div>
 				</div><!-- /row -->
 				
+			<div class="row">
+  					<div class="large-2 small-1 columns">
+  					  	<ul class="side-nav" style="padding-top:0; margin-top:0;">
+							<li><a href="https://basecamp.com/2973848/"><i class="gen-enclosed foundicon-people"></i></a></li>
+						</ul>
+  					</div>					 					
+  					<div class="large-10 small-11 columns">
+  						<ul class="side-nav" style="padding-top:0; margin-top:0;">
+							<li><a href="https://basecamp.com/2973848/">Basecamp</a></li>
+						</ul>
+  					</div>
+				</div><!-- /row -->
+				
 				<div class="row">
   					<div class="large-2 small-1 columns">
   					  	<ul class="side-nav" style="padding-top:0; margin-top:0;">
@@ -60,17 +73,17 @@
 				<div class="row">
 				<h4>Regional News</h4>
 				<hr />
-				  				<h5>Anglophone Group Meeting</h5>
+				  				<h5>Anglophone Group Meeting <!--<a href="https://basecamp.com/2973848/projects/12824425"><img width="16" height="16" src="../img/basecamp.png" alt="Basecamp" /></a>--></h5>
   				<p>The most recent Anglophone group meeting was held at <a href="http://www.business-school.ed.ac.uk">University of Edinburgh Business School</a> on 21st and 22nd January 2016.</p>
 				</div><!-- /row -->
 				<hr />
 				<div class="row">
-  				<h5>Continental Group Meeting</h5>
+  				<h5>Continental Group Meeting <!--<a href="https://basecamp.com/2973848/projects/12824668"><img width="16" height="16" src="../img/basecamp.png" alt="Basecamp" /></a>--></h5>
   				<p>The next Continental group meeting will be held at the <a href="http://www.ef.uni-lj.si/cel">University of Ljubljana</a> on Monday 26th and Tuesday 27th September 2016.</p>
   				</div><!-- /row -->
 				<hr />
 				<div class="row">
-  				<h5>Northern Group Meeting</h5>
+  				<h5>Northern Group Meeting <!--<a href="https://basecamp.com/2973848/projects/12824702"><img width="16" height="16" src="../img/basecamp.png" alt="Basecamp" /></a>--></h5>
   				<p>The most recent Northern group meeting was held at <a href="http://www.whu.edu/en/">WHU – Otto Beisheim School of Management</a> on 27th and 28th October 2015.</p>
 				</div><!-- /row -->
 	
