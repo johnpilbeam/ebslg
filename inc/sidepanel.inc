@@ -79,7 +79,7 @@
 				<hr />
 				<div class="row">
   				<h5>Continental Group Meeting <!--<a href="https://basecamp.com/2973848/projects/12824668"><img width="16" height="16" src="../img/basecamp.png" alt="Basecamp" /></a>--></h5>
-  				<p>The next Continental group meeting will be held at the <a href="http://www.ef.uni-lj.si/cel">University of Ljubljana</a> on Monday 26th and Tuesday 27th September 2016.</p>
+  				<p>The most recent Continental group meeting was held at the <a href="http://www.ef.uni-lj.si/cel">University of Ljubljana</a> on Monday 26th and Tuesday 27th September 2016.</p>
   				</div><!-- /row -->
 				<hr />
 				<div class="row">
