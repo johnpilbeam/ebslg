@@ -74,7 +74,7 @@
 				<h4>Regional News</h4>
 				<hr />
 				  				<h5>Anglophone Group Meeting <!--<a href="https://basecamp.com/2973848/projects/12824425"><img width="16" height="16" src="../img/basecamp.png" alt="Basecamp" /></a>--></h5>
-  				<p>The most recent Anglophone group meeting was held at <a href="http://www.business-school.ed.ac.uk">University of Edinburgh Business School</a> on 21st and 22nd January 2016.</p>
+  				<p>The most recent Anglophone group meeting was held at <a href="http://www.cass.city.ac.uk">Sir John Cass Business School</a> on 19th and 20th January 2017.</p>
 				</div><!-- /row -->
 				<hr />
 				<div class="row">
