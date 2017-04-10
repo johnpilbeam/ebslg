@@ -84,7 +84,7 @@
 				<hr />
 				<div class="row">
   				<h5>Northern Group Meeting <!--<a href="https://basecamp.com/2973848/projects/12824702"><img width="16" height="16" src="../img/basecamp.png" alt="Basecamp" /></a>--></h5>
-  				<p>The most recent Northern group meeting was held at <a href="http://www.whu.edu/en/">WHU – Otto Beisheim School of Management</a> on 27th and 28th October 2015.</p>
+  				<p>The most recent Northern group meeting was held at <a href="http://www.bi.edu/">BI Norwegian Business School</a> on 19th and 21st October 2016.</p>
 				</div><!-- /row -->
 	
 										
