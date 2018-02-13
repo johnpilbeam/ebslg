@@ -4,7 +4,7 @@
   <title>EBSLG: European Business Schools Librarians' Group (EBSLG): <!--#echo var="mytitle" --></title>
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
-  <link href='http://fonts.googleapis.com/css?family=Bitter:700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:700" integrity="sha384-ts1NdUqeCEWKOjG8xMqPi3e2ziq8cgl7gR2k+yoTn1N9rtLRx3h+yYmvkwYFkR8n" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/foundation.css">
   <link rel="stylesheet" href="/css/app.css">
   <link rel="stylesheet" href="/stylesheets/general_foundicons.css">  
