@@ -1,0 +1,80 @@
+Options +Includes
+AddType text/html .html .inc
+AddOutputFilter INCLUDES .html .inc
+
+Redirect 301 /ebslg/				http://www.ebslg.org
+Redirect 301 /_						http://www.ebslg.org
+Redirect 301 /default_public.htm	http://www.ebslg.org
+Redirect 301 /Events				http://www.ebslg.org
+Redirect 301 /home					http://www.ebslg.org
+Redirect 301 /events 				http://www.ebslg.org
+Redirect 301 /presentations			http://www.ebslg.org
+Redirect 301 /public				http://www.ebslg.org
+Redirect 301 /site					http://www.ebslg.org
+Redirect 301 /links					http://www.ebslg.org
+Redirect 301 /links_bpa				http://www.ebslg.org
+Redirect 301 /Links_of_interest		http://www.ebslg.org
+Redirect 301 /links_pa				http://www.ebslg.org
+Redirect 301 /pa.htm				http://www.ebslg.org
+Redirect 301 /bpa.htm				http://www.ebslg.org
+Redirect 301 /rsrc					http://www.ebslg.org
+Redirect 301 /memories_hb.htm		http://www.ebslg.org
+Redirect 301 /events_archive.htm	http://www.ebslg.org
+Redirect 301 /boston.htm			http://www.ebslg.org
+Redirect 301 /general_archive.htm	http://www.ebslg.org
+Redirect 301 /cranfield.htm			http://www.ebslg.org
+Redirect 301 /ab.htm				http://www.ebslg.org
+Redirect 301 /general.htm			http://www.ebslg.org
+Redirect 301 /regional_archive.htm	http://www.ebslg.org
+Redirect 301 /30th_birthday.htm		http://www.ebslg.org
+Redirect 301 /About_us				http://www.ebslg.org/about
+Redirect 301 /about/board/			http://www.ebslg.org/about
+Redirect 301 /about/purpose/objet	http://www.ebslg.org/about/purpose
+Redirect 301 /home/purpose 			http://www.ebslg.org/about/purpose
+Redirect 301 /purpose 				http://www.ebslg.org/about/purpose
+Redirect 301 /contactus  			http://www.ebslg.org/contact/
+Redirect 301 /directory				http://www.ebslg.org/members
+Redirect 301 /List_of_members		http://www.ebslg.org/members
+Redirect 301 /images				http://www.ebslg.org/img
+Redirect 301 /site-map				http://www.ebslg.org/sitemap
+Redirect 301 /SiteMap				http://www.ebslg.org/sitemap
+Redirect 301 /members/default.htm	http://www.ebslg.org/members
+Redirect 301 /about/default.htm		http://www.ebslg.org/about
+Redirect 301 /about/default_french.htm	http://www.ebslg.org/about
+Redirect 301 /contact/default.htm	http://www.ebslg.org/contact/
+Redirect 301 /cookies/				http://www.ebslg.org/privacy/
+Redirect 301 /pdf/constitution-june-20-2013.pdf http://www.ebslg.org/pdf/Constitution_2015%20_December_2015.pdf
+
+Redirect 301 /contact/mary_betts_gray.jpg 		http://www.ebslg.org/members/photos/mary-betts-gray.jpg
+Redirect 301 /members/mary_betts_gray.jpg 		http://www.ebslg.org/members/photos/mary-betts-gray.jpg
+Redirect 301 /contact/onno_mastenbroek.JPG 		http://www.ebslg.org/members/photos/onno-mastenbroek.jpg
+Redirect 301 /contact/lorraine_oliver.jpg 		http://www.ebslg.org/members/photos/lorraine-oliver.jpg
+Redirect 301 /contact/sissel-hafstad-avsn.jpg 	http://www.ebslg.org/members/photos/sissel-hafstad.jpg
+Redirect 301 /contact/thorsten_meyer.jpg 		http://www.ebslg.org/members/photos/thorsten-meyer.jpg
+Redirect 301 /members/Susanne.jpg 				http://www.ebslg.org/members/photos/susanne-dalsgaard-krag.jpg
+Redirect 301 /members/ISchumm.jpg				http://www.ebslg.org/members/photos/irene-schumm.jpg
+Redirect 301 /members/sophie_magnanou.jpg		http://www.ebslg.org/members/photos/sophie-magnanou.jpg
+Redirect 301 /members/isabelle_audebeau.jpg		http://www.ebslg.org/members/photos/isabelle-audebeau.jpg
+Redirect 301 /img/Carolina.jpg					http://www.ebslg.org/ebslg/members/photos/carolina-sanmartin.jpg
+Redirect 301 /members/Nikolaus_Berger.jpg		http://www.ebslg.org/ebslg/members/photos/nikolaus-berger.jpg
+Redirect 301 /members/Uwe_Boettcher.jpg			http://www.ebslg.org/ebslg/members/photos/uwe-boettcher.jpg
+Redirect 301 /members/Helena_Siesjo.jpg			http://www.ebslg.org/ebslg/members/photos/helena-siesjo.jpg
+Redirect 301 /members/rene_steffensen.jpg		http://www.ebslg.org/ebslg/members/photos/rene-steffensen.jpg
+Redirect 301 /members/dominic_broadhurst.jpg	https://sites.google.com/site/ebslgpublic/directory/dominic_broadhurst.jpg
+Redirect 301 /members/erik.jpg					http://www.ebslg.org/ebslg/members/photos/erik-munck-mortier.jpg
+Redirect 301 /members/agnes_melot.jpg			http://www.ebslg.org/ebslg/members/photos/agnes-melot.jpg
+Redirect 301 /members/lorraine_oliver.jpg		http://www.ebslg.org/ebslg/members/photos/lorraine-oliver.jpg
+Redirect 301 /members/Jacqui_Gaul.jpg			http://www.ebslg.org/ebslg/members/photos/jacqui-gaul.jpg
+Redirect 301 /members/Carina_Huguet.jpg			http://www.ebslg.org/ebslg/members/photos/carina-huguet.jpg
+
+Redirect 301 /img/ebslg_new_logo_105.jpg https://sites.google.com/site/ebslgpublic/home/ebslg_new_logo_105.jpg
+
+<Files ~ "\.php$">
+	Order allow,deny
+	Deny from all
+</Files>
+
+<Files ~ "\.cgi$">
+	Order allow,deny
+	Deny from all
+</Files>
