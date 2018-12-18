@@ -74,18 +74,19 @@
 				<h4>Regional News</h4>
 				<hr />
 				<h5>Anglophone Group Meeting <!--<a href="https://basecamp.com/2973848/projects/12824425"><img width="16" height="16" src="../img/basecamp.png" alt="Basecamp" /></a>--></h5>
-  				<p>The most recent Anglophone group meeting was held at <a href="https://www.jbs.cam.ac.uk/">Cambridge Judge Business School</a> on 25th and 26th January 2018.</p>
+  				<p>The next Anglophone group meeting will be held at <a href="https://www.mbs.ac.uk">Manchester Business School</a> between the 24th and 25th January 2019.</p>
 				</div><!-- /row -->
 				<hr />
 				<div class="row">
   				<h5>Continental Group Meeting <!--<a href="https://basecamp.com/2973848/projects/12824668"><img width="16" height="16" src="../img/basecamp.png" alt="Basecamp" /></a>--></h5>
-  				<p>The next Continental group meeting will be held at <a href="https://www.imd.org">IMD, Lausanne</a> between the 3rd and 5th October 2018.</p>
+  				<p>The most recent Continental group meeting was held at <a href="https://www.imd.org">IMD, Lausanne</a> on the 3rd and 5th October 2018.</p>
   				</div><!-- /row -->
 				<hr />
+				<!--
 				<div class="row">
-  				<h5>Northern Group Meeting <!--<a href="https://basecamp.com/2973848/projects/12824702"><img width="16" height="16" src="../img/basecamp.png" alt="Basecamp" /></a>--></h5>
+  				<h5>Northern Group Meeting</h5>
   				<p>The most recent Northern group meeting was held at <a href="https://www.cbs.dk/en">Copenhagen Business School</a> on 26th and 27th October 2017.</p>
-				</div><!-- /row -->
+				</div>--><!-- /row -->
 	
 										
 	</div><!-- /panel inverted -->
