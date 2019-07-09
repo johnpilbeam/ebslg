@@ -82,11 +82,11 @@
   				<p>The most recent Continental group meeting was held at <a href="https://www.imd.org">IMD, Lausanne</a> on the 3rd and 5th October 2018.</p>
   				</div><!-- /row -->
 				<hr />
-				<!--
+				
 				<div class="row">
   				<h5>Northern Group Meeting</h5>
-  				<p>The most recent Northern group meeting was held at <a href="https://www.cbs.dk/en">Copenhagen Business School</a> on 26th and 27th October 2017.</p>
-				</div>--><!-- /row -->
+  				<p>The next recent Northern group meeting will be held on September 30th and October 1st at the <a href="https://www.zbw.eu/">ZBW – Leibniz Information Centre for Economics</a> at Kiel, Germany.</p>
+				</div><!-- /row -->
 	
 										
 	</div><!-- /panel inverted -->

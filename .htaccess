@@ -70,11 +70,9 @@ Redirect 301 /members/Carina_Huguet.jpg			http://www.ebslg.org/ebslg/members/pho
 Redirect 301 /img/ebslg_new_logo_105.jpg https://sites.google.com/site/ebslgpublic/home/ebslg_new_logo_105.jpg
 
 <Files ~ "\.php$">
-	Order allow,deny
-	Deny from all
+Require all denied
 </Files>
 
 <Files ~ "\.cgi$">
-	Order allow,deny
-	Deny from all
+Require all denied
 </Files>
