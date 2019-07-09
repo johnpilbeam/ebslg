@@ -36,7 +36,7 @@
   					</div>					 					
   					<div class="large-10 small-11 columns">
   						<ul class="side-nav" style="padding-top:0; margin-top:0;">
-							<li><a href="https://sites.google.com/a/wfu.edu/abld/home/membership">ABLD - Academic Business Library Directors</a></li>
+							<li><a href="https://sites.google.com/view/abld/home">ABLD - Academic Business Library Directors</a></li>
 						</ul>
   					</div>
 				</div><!-- /row -->
