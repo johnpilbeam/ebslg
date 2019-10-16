@@ -79,8 +79,7 @@
 				<hr />
 				<div class="row">
   				<h5>Continental Group Meeting <!--<a href="https://basecamp.com/2973848/projects/12824668"><img width="16" height="16" src="../img/basecamp.png" alt="Basecamp" /></a>--></h5>
-  				<p>The most recent Continental group meeting was held at <a href="https://www.imd.org">IMD, Lausanne</a> on the 3rd and 5th October 2018.</p>
-  				</div><!-- /row -->
+				<p>The most recent Continental group meeting was held at <a href="https://www.vlerick.com/en/ebslg-conference">Vlerick Business School</a> between 9th and 11th October 2019.</p>  				</div><!-- /row -->
 				<hr />
 				
 				<div class="row">
