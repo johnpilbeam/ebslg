@@ -74,7 +74,7 @@
 				<h4>Regional News</h4>
 				<hr />
 				<h5>Anglophone Group Meeting <!--<a href="https://basecamp.com/2973848/projects/12824425"><img width="16" height="16" src="../img/basecamp.png" alt="Basecamp" /></a>--></h5>
-  				<p>The next Anglophone group meeting will be held at <a href="https://www.strath.ac.uk/business/">Strathclyde Business School</a>, University of Strathclyde on the 30th and 31st January 2020.</p>
+  				<p>The most recent Anglophone Group meeting was held at <a href="https://www.strath.ac.uk/business/">Strathclyde Business School</a>, University of Strathclyde between the 30th and 31st January 2020.</p>
 				</div><!-- /row -->
 				<hr />
 				<div class="row">
