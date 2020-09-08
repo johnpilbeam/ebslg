@@ -283,7 +283,7 @@ ul.no-bullet li a, body#page-contact dl a {color:#004620; text-decoration: under
 	}      
 }
 
-/* Fix for Google Mobile Usability issues */
+/* Fix for Google Mobile Usability issues 2020-09-08 */
 
 @media screen and (max-width: 760px) {
   body, .top-bar-section ul li > a {
