@@ -282,3 +282,18 @@ ul.no-bullet li a, body#page-contact dl a {color:#004620; text-decoration: under
 		bottom: 81px;
 	}      
 }
+
+/* Fix for Google Mobile Usability issues */
+
+@media screen and (max-width: 760px) {
+  body, .top-bar-section ul li > a {
+    font-size: 150%;
+  }
+  .top-bar .toggle-topbar.menu-icon a {
+    text-indent: -70px;
+  }
+  div.small-logo {
+  background-color: #000;
+  background-clip: content-box;
+  }
+}
