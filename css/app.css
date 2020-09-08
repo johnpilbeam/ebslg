@@ -296,4 +296,7 @@ ul.no-bullet li a, body#page-contact dl a {color:#004620; text-decoration: under
   background-color: #000;
   background-clip: content-box;
   }
+  [class*="foundicon-"] {
+  margin-left: -0.3em !important;
+  }
 }
