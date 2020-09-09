@@ -275,6 +275,14 @@ ul.no-bullet li a, body#page-contact dl a {color:#004620; text-decoration: under
 }
 .lt-ie9 .top-bar-section ul.right li .dropdown li .dropdown { right: 100%; }
 
+body#page-accessibility div.large-9 ul {
+  font-family: inherit;
+  font-weight: normal;
+  font-size: 0.85em !important;
+  margin-top:-1em;
+  margin-left: 1.3em;
+}
+
 /* Chrome Orbit nav button fix */
 @media screen and (-webkit-min-device-pixel-ratio:0) {    
 	.orbit-container .orbit-prev,
