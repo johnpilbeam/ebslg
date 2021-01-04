@@ -1,5 +1,5 @@
 /* TEAM */
-		Project Lead: Chris Flegg - Secretary, EBSLG                       
+		Original Project Lead: Chris Flegg - Secretary, EBSLG (– 2017)                       
 		Site: http://www.ebslg.org/contact/                                             
 		Location: Oxford, UK.                     
                          
