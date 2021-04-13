@@ -74,7 +74,7 @@
 				<h4>Regional News</h4>
 				<hr />
 				<h5>UK and Ireland Group Meeting <!--<a href="https://basecamp.com/2973848/projects/12824425"><img width="16" height="16" src="../img/basecamp.png" alt="Basecamp" /></a>--></h5>
-  				<p>The most recent UK and Ireland Group meeting was held at <a href="https://www.strath.ac.uk/business/">Strathclyde Business School</a>, University of Strathclyde between the 30th and 31st January 2020.</p>
+  				<p>The most recent UK and Ireland Group meeting was held online on 22 January 2021.</p>
 				</div><!-- /row -->
 				<hr />
 				<div class="row">
@@ -84,7 +84,7 @@
 				
 				<div class="row">
   				<h5>Northern Group Meeting</h5>
-  				<p>The most recent Northern group meeting was held at <a href="https://www.zbw.eu/">ZBW – Leibniz Information Centre for Economics</a> at Kiel, Germany between September 30th and October 1st 2019.</p>
+  				<p>The most recent Northern Group meeting was held online on 18 March 2021.</p>
 				</div><!-- /row -->
 	
 										
