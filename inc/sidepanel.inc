@@ -79,7 +79,8 @@
 				<hr />
 				<div class="row">
   				<h5>Continental Group Meeting <!--<a href="https://basecamp.com/2973848/projects/12824668"><img width="16" height="16" src="../img/basecamp.png" alt="Basecamp" /></a>--></h5>
-				<p>The most recent Continental group meeting was held at <a href="https://www.vlerick.com/en/ebslg-conference">Vlerick Business School</a> between 9th and 11th October 2019.</p>  				</div><!-- /row -->
+				<p>The most recent Continental Group meeting was held online on 20 April 2021.</p>
+				</div><!-- /row -->
 				<hr />
 				
 				<div class="row">
