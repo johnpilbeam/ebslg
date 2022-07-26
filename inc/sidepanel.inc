@@ -49,7 +49,7 @@
   					</div>					 					
   					<div class="large-10 small-11 columns">
   						<ul class="side-nav" style="padding-top:0; margin-top:0;">
-							<li><a href="http://www.isb.edu/apbslg/">APBSLG – Asia-Pacific Business School Librarians’ Group</a></li>
+							<li><a href="https://www.isb.edu/en/apbslg.html">APBSLG – Asia-Pacific Business School Librarians’ Group</a></li>
 						</ul>
   					</div>
 				</div><!-- /row -->
