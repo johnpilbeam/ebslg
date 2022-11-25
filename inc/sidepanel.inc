@@ -69,26 +69,6 @@
 												
 	</div><!-- /panel inverted -->
 	
-		<div class="panel inverted meetings">
-				<div class="row">
-				<h4>Regional News</h4>
-				<hr />
-				<h5>UK and Ireland Group Meeting <!--<a href="https://basecamp.com/2973848/projects/12824425"><img width="16" height="16" src="../img/basecamp.png" alt="Basecamp" /></a>--></h5>
-  				<p>The most recent UK and Ireland Group meeting was held online on 22 January 2021.</p>
-				</div><!-- /row -->
-				<hr />
-				<div class="row">
-  				<h5>Continental Group Meeting <!--<a href="https://basecamp.com/2973848/projects/12824668"><img width="16" height="16" src="../img/basecamp.png" alt="Basecamp" /></a>--></h5>
-				<p>The most recent Continental Group meeting was held online on 20 April 2021.</p>
-				</div><!-- /row -->
-				<hr />
-				
-				<div class="row">
-  				<h5>Northern Group Meeting</h5>
-  				<p>The most recent Northern Group meeting was held online on 18 March 2021.</p>
-				</div><!-- /row -->
-	
-										
-	</div><!-- /panel inverted -->
+
 	
 </div><!-- /large-3 -->
