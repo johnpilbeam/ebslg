@@ -17,7 +17,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
   <title>
-    EBSLG: European Business Schools Librarians' Group (EBSLG): <!--#echo
+    EBSLG: European Business School Librarians' Group (EBSLG): <!--#echo
     var="mytitle" -->
   </title>
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
