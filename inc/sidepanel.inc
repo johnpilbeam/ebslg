@@ -56,7 +56,7 @@
 				<div class="row">
   					<div class="large-2 small-1 columns">
   					  	<ul class="side-nav" style="padding-top:0; margin-top:0;">
-							<li><a href="http://www.isb.edu/apbslg/"><i class="gen-enclosed foundicon-globe"></i></a></li>
+							<li><a href="https://www.isb.edu/en/apbslg.html"><i class="gen-enclosed foundicon-globe"></i></a></li>
 						</ul>
   					</div>					 					
   					<div class="large-10 small-11 columns">
