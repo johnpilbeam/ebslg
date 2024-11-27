@@ -47,9 +47,11 @@ Redirect 301 /about/default.htm		http://www.ebslg.org/about
 Redirect 301 /about/default_french.htm	http://www.ebslg.org/about
 Redirect 301 /contact/default.htm	http://www.ebslg.org/contact/
 Redirect 301 /cookies/				http://www.ebslg.org/privacy/
-Redirect 301 /pdf/constitution-june-20-2013.pdf https://www.ebslg.org/pdf/EBSLG_Constitution_2021.pdf
-Redirect 301 /pdf/Constitution_2015%20_December_2015.pdf https://www.ebslg.org/pdf/EBSLG_Constitution_2021.pdf
-Redirect 301 /pdf/EBSLG_Constitution_2019.pdf https://www.ebslg.org/pdf/EBSLG_Constitution_2021.pdf
+Redirect 301 /pdf/constitution-june-20-2013.pdf https://www.ebslg.org/pdf/EBSLG_Constitution_2024.pdf
+Redirect 301 /pdf/Constitution_2015%20_December_2015.pdf https://www.ebslg.org/pdf/EBSLG_Constitution_2024.pdf
+Redirect 301 /pdf/EBSLG_Constitution_2019.pdf https://www.ebslg.org/pdf/EBSLG_Constitution_2024.pdf
+Redirect 301 /pdf/EBSLG_Constitution_2021.pdf https://www.ebslg.org/pdf/EBSLG_Constitution_2024.pdf
+
 
 Redirect 301 /contact/mary_betts_gray.jpg 		http://www.ebslg.org/members/photos/mary-betts-gray.jpg
 Redirect 301 /members/mary_betts_gray.jpg 		http://www.ebslg.org/members/photos/mary-betts-gray.jpg
