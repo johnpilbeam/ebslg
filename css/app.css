@@ -181,10 +181,15 @@ body#page-members div.large-9 h4 a,
 body#page-members div.large-9 dt a,
 body#page-members div.large-9 dd a,
 body#page-libraries div.large-9 h4 a,
+body#page-libraries div.large-9 h5 a,
 body#page-libraries div.large-9 dt a,
 body#page-libraries div.large-9 dd a,
 body#page-home div.large-5 h4 a,
-body#page-sitemap div.large-9 dl a {
+body#page-sitemap div.large-9 dl a,
+body.off-canvas div.large-9 h4 a,
+body.off-canvas div.large-9 dt a,
+body.off-canvas div.large-9 dd a,
+body.off-canvas div.large-9 h5 a {
   color: #004620;
 }
 body#page-libraries div.large-9 h4 a:hover,
@@ -389,7 +394,7 @@ body#page-contact dl a {
 /* IE8 Top Nav fixes */
 .lt-ie9 .top-bar {
   background: #2f2f2f;
-  *zoom: 1;
+  /* zoom: 1; */
   overflow: visible;
   margin-bottom: 9em;
 }
@@ -556,4 +561,18 @@ body#page-accessibility div.large-9 ul {
   [class*="foundicon-"] {
     margin-left: -0.3em !important;
   }
+}
+
+/* Library and group filter button 2025-03-18 */
+#lib-filter {
+  float: right;
+  border-color: #227425;
+  background-color: #0a8a36;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+#lib-filter:hover {
+  background-color: black;
+  text-decoration: none;
 }
