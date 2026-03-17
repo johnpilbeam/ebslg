@@ -1,59 +1,224 @@
 $(document).ready(function () {
-  var LibAngloArray = [
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-anglo-cambridge-uk.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.jbs.cam.ac.uk/home/">Judge Business School</a>, Cambridge, UK</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-anglo-cass-uk-c.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.cass.city.ac.uk/">The Business School</a>, City, University of London, UK</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-anglo-cranfield-uk-a.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.cranfield.ac.uk/">Cranfield School of Management</a>, Cranfield, UK</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-anglo-london-uk-a.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.london.edu/">London Business School</a>, London, UK</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-anglo-manchester-uk.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.mbs.ac.uk/library">Alliance Manchester Business School</a>, Manchester, UK</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-anglo-sbs-uk.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.sbs.ox.ac.uk">Saïd Business School</a>, University of Oxford, UK</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-anglo-strathclyde-uk-a.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="#">Strathclyde Business School</a>, Glasgow, UK</div>',
-  ];
-  var LibCntntlArray = [
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-cntntl-insead-france-a.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="https://www.insead.edu/home">INSEAD</a>, Fontainebleau, France</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-cntntl-dauphine-france-a.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.dauphine.fr/">Université Paris Dauphine</a>, Paris, France</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-cntntl-dauphine-france-a.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.dauphine.fr/">Université Paris Dauphine</a>, Paris, France</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-cntntl-eada-spain-a.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.eada.edu/">EADA Business School</a>, Barcelona, Spain</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-cntntl-esade-spain-a.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.esade.edu/web/eng">ESADE Business School</a>, Barcelona, Spain</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-cntntl-essec-france-a.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.essec.fr/">ESSEC Business School</a>, Cergy-Pontoise, France</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-cntntl-iebusinessschool-spain-a.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.ie.edu/business-school/">IE Business School</a>, Madrid, Spain</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-cntntl-iese-spain-a.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.iese.edu/">IESE Business School</a>, Barcelona, Spain</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-cntntl-ljubljana-slovenia-a.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.ef.uni-lj.si/en">School of Economics and Business</a>, University of Ljubljana, Slovenia</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-cntntl-stgallen-switzerland-a.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.unisg.ch/en">University of St. Gallen</a>, St.Gallen, Switzerland</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-cntntl-vlerick-gent.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.vlerick.com/en">Vlerick Business School</a>, Gent, Belgium</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-cntntl-vse-prague-b.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.vse.cz/english/">Prague University of Economics and Business</a>, Prague, Czech Republic</div>',
-  ];
-  var LibNorthArray = [
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-north-aarhus-denmark-a.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://bss.au.dk">The School of Business and Social Sciences</a>, Aarhus University, Denmark</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-north-bi-norway-a.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.bi.edu/">BI Norwegian Business School</a>, Oslo, Norway</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-north-cbs-copenhagen.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.cbs.dk/en/">Copenhagen Business School</a>, Denmark</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-north-corvinus-budapest-a.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://portal.uni-corvinus.hu/?id=44509">Corvinus University of Budapest</a>, Budapest, Hungary</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-north-gothenburg-sweden.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.handels.gu.se/english">School of Business, Economics and Law</a>, Gothenburg, Sweden</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-north-nhh-norway-a.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.nhh.no/en/home.aspx">NHH Norwegian School of Economics</a>, Bergen, Norway</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-north-nyenrode-netherlands.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.nyenrode.com/Pages/Default.aspx">Nyenrode Business Universiteit</a>, Breukelen, Netherlands</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-north-stockholm-sweden.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.hhs.se/">Stockholm School of Economics</a>, Stockholm, Sweden</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-north-turku-finland-a.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.utu.fi/en/units/library/Pages/home.aspx">Turku University School of Economics</a>, University of Turku, Finland</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-north-whu-germany.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.whu.edu/en/">WHU - Otto Beisheim School of Management</a>, Germany</div>',
-    '<img src="/img/banner-globe-europe.png" alt="EBSLG: European Business Schools Librarians’ Group" style="position:absolute; top:0; left:0; z-index:0; opacity : 1;" /><img src="/img/orbit-north-wu-austria-b.jpg" alt="Photograph of library" /><div class="orbit-caption hide-for-small"><a href="http://www.wu.ac.at/en/">WU Vienna University of Economics and Business</a>, Vienna, Austria</div>',
-  ];
-  var randAnglo =
-    LibAngloArray[Math.floor(Math.random() * LibAngloArray.length)];
-  var randCntntl =
-    LibCntntlArray[Math.floor(Math.random() * LibCntntlArray.length)];
-  var randNorth =
-    LibNorthArray[Math.floor(Math.random() * LibNorthArray.length)];
-  //document.write (rand);
-  if (document.getElementById("LibAnglo")) {
-    document.getElementById("LibAnglo").innerHTML = randAnglo;
+  // Shared banner overlay — update once here to change everywhere
+  var bannerImg =
+    '<img src="/img/banner-globe-europe.png"' +
+    ' alt="EBSLG: European Business Schools Librarians\u2019 Group"' +
+    ' style="position:absolute; top:0; left:0; z-index:0; opacity:1;" />';
+
+  // Build the HTML for one library slide from a data object
+  function buildSlide(lib) {
+    return (
+      bannerImg +
+      '<img src="' +
+      lib.img +
+      '" alt="Photograph of library" />' +
+      '<div class="orbit-caption hide-for-small">' +
+      '<a href="' +
+      lib.url +
+      '">' +
+      lib.name +
+      "</a>, " +
+      lib.location +
+      "</div>"
+    );
   }
-  if (document.getElementById("LibCntntl")) {
-    document.getElementById("LibCntntl").innerHTML = randCntntl;
+
+  // Pick a random item from an array
+  function randomItem(arr) {
+    return arr[Math.floor(Math.random() * arr.length)];
   }
-  if (document.getElementById("LibNorth")) {
-    document.getElementById("LibNorth").innerHTML = randNorth;
-  }
+
+  // --- Library data (image, url, name, location) ---
+
+  var libraries = {
+    LibAnglo: [
+      {
+        img: "/img/orbit-anglo-cambridge-uk.jpg",
+        url: "https://www.jbs.cam.ac.uk",
+        name: "Judge Business School",
+        location: "Cambridge, UK",
+      },
+      {
+        img: "/img/orbit-anglo-cass-uk-c.jpg",
+        url: "https://www.bayes.citystgeorges.ac.uk",
+        name: "Bayes Business School",
+        location: "City, University of London, UK",
+      },
+      {
+        img: "/img/orbit-anglo-cranfield-uk-a.jpg",
+        url: "https://www.cranfield.ac.uk",
+        name: "Cranfield School of Management",
+        location: "Cranfield, UK",
+      },
+      {
+        img: "/img/orbit-anglo-london-uk-a.jpg",
+        url: "https://www.london.edu",
+        name: "London Business School",
+        location: "London, UK",
+      },
+      {
+        img: "/img/orbit-anglo-manchester-uk.jpg",
+        url: "https://www.alliancembs.manchester.ac.uk",
+        name: "Alliance Manchester Business School",
+        location: "Manchester, UK",
+      },
+      {
+        img: "/img/orbit-anglo-sbs-uk.jpg",
+        url: "https://www.sbs.ox.ac.uk",
+        name: "Sa\u00efd Business School",
+        location: "University of Oxford, UK",
+      },
+      {
+        img: "/img/orbit-anglo-strathclyde-uk-a.jpg",
+        url: "https://www.strath.ac.uk/business/",
+        name: "Strathclyde Business School",
+        location: "Glasgow, UK",
+      },
+    ],
+    LibCntntl: [
+      {
+        img: "/img/orbit-cntntl-insead-france-a.jpg",
+        url: "https://www.insead.edu/home",
+        name: "INSEAD",
+        location: "Fontainebleau, France",
+      },
+      {
+        img: "/img/orbit-cntntl-dauphine-france-a.jpg",
+        url: "https://www.dauphine.fr/",
+        name: "Universit\u00e9 Paris Dauphine",
+        location: "Paris, France",
+      },
+      {
+        img: "/img/orbit-cntntl-eada-spain-a.jpg",
+        url: "https://www.eada.edu/",
+        name: "EADA Business School",
+        location: "Barcelona, Spain",
+      },
+      {
+        img: "/img/orbit-cntntl-esade-spain-a.jpg",
+        url: "https://www.esade.edu/web/eng",
+        name: "ESADE Business School",
+        location: "Barcelona, Spain",
+      },
+      {
+        img: "/img/orbit-cntntl-essec-france-a.jpg",
+        url: "https://www.essec.fr/",
+        name: "ESSEC Business School",
+        location: "Cergy-Pontoise, France",
+      },
+      {
+        img: "/img/orbit-cntntl-iebusinessschool-spain-a.jpg",
+        url: "https://www.ie.edu/business-school/",
+        name: "IE Business School",
+        location: "Madrid, Spain",
+      },
+      {
+        img: "/img/orbit-cntntl-iese-spain-a.jpg",
+        url: "https://www.iese.edu/",
+        name: "IESE Business School",
+        location: "Barcelona, Spain",
+      },
+      {
+        img: "/img/orbit-cntntl-ljubljana-slovenia-a.jpg",
+        url: "https://www.ef.uni-lj.si/en",
+        name: "School of Economics and Business",
+        location: "University of Ljubljana, Slovenia",
+      },
+      {
+        img: "/img/orbit-cntntl-stgallen-switzerland-a.jpg",
+        url: "https://www.unisg.ch/en",
+        name: "University of St. Gallen",
+        location: "St.Gallen, Switzerland",
+      },
+      {
+        img: "/img/orbit-cntntl-vlerick-gent.jpg",
+        url: "https://www.vlerick.com/en",
+        name: "Vlerick Business School",
+        location: "Gent, Belgium",
+      },
+      {
+        img: "/img/orbit-cntntl-vse-prague-b.jpg",
+        url: "https://www.vse.cz/english/",
+        name: "Prague University of Economics and Business",
+        location: "Prague, Czech Republic",
+      },
+    ],
+    LibNorth: [
+      {
+        img: "/img/orbit-north-aarhus-denmark-a.jpg",
+        url: "https://bss.au.dk",
+        name: "The School of Business and Social Sciences",
+        location: "Aarhus University, Denmark",
+      },
+      {
+        img: "/img/orbit-north-bi-norway-a.jpg",
+        url: "https://www.bi.edu/",
+        name: "BI Norwegian Business School",
+        location: "Oslo, Norway",
+      },
+      {
+        img: "/img/orbit-north-cbs-copenhagen.jpg",
+        url: "https://www.cbs.dk/en/",
+        name: "Copenhagen Business School",
+        location: "Denmark",
+      },
+      {
+        img: "/img/orbit-north-corvinus-budapest-a.jpg",
+        url: "https://www.uni-corvinus.hu/?id=44509",
+        name: "Corvinus University of Budapest",
+        location: "Budapest, Hungary",
+      },
+      {
+        img: "/img/orbit-north-nhh-norway-a.jpg",
+        url: "https://www.nhh.no/en/home.aspx",
+        name: "NHH Norwegian School of Economics",
+        location: "Bergen, Norway",
+      },
+      {
+        img: "/img/orbit-north-nyenrode-netherlands.jpg",
+        url: "https://www.nyenrode.com/Pages/Default.aspx",
+        name: "Nyenrode Business Universiteit",
+        location: "Breukelen, Netherlands",
+      },
+      {
+        img: "/img/orbit-north-stockholm-sweden.jpg",
+        url: "https://www.hhs.se/",
+        name: "Stockholm School of Economics",
+        location: "Stockholm, Sweden",
+      },
+      {
+        img: "/img/orbit-north-turku-finland-a.jpg",
+        url: "https://www.utu.fi/en/units/library/Pages/home.aspx",
+        name: "Turku University School of Economics",
+        location: "University of Turku, Finland",
+      },
+      {
+        img: "/img/orbit-north-whu-germany.jpg",
+        url: "https://www.whu.edu/en/",
+        name: "WHU - Otto Beisheim School of Management",
+        location: "Germany",
+      },
+      {
+        img: "/img/orbit-north-wu-austria-b.jpg",
+        url: "https://www.wu.ac.at/en/",
+        name: "WU Vienna University of Economics and Business",
+        location: "Vienna, Austria",
+      },
+    ],
+  };
+
+  // Inject a random slide into each matching element
+  Object.keys(libraries).forEach(function (id) {
+    var el = document.getElementById(id);
+    if (el) {
+      el.innerHTML = buildSlide(randomItem(libraries[id]));
+    }
+  });
 });
 
 var ul = document.querySelector("ul#orbit-randomlibs");
-for (var i = ul.children.length; i >= 0; i--) {
-  ul.appendChild(ul.children[(Math.random() * i) | 0]);
+if (ul) {
+  for (var i = ul.children.length; i >= 0; i--) {
+    ul.appendChild(ul.children[(Math.random() * i) | 0]);
+  }
 }
