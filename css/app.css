@@ -157,8 +157,8 @@ dl dt a {
   margin-top: 0;
   padding-top: 0;
   margin-bottom: 0;
-  word-break: break-all;
-  word-break: break-word;
+  word-break: normal;
+  overflow-wrap: anywhere;
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   hyphens: auto;
@@ -232,7 +232,30 @@ body#page-notfound dd a {
   text-decoration: underline;
 }
 body#page-libraries table ul li {
-  word-break: none;
+  word-break: normal;
+  overflow-wrap: anywhere;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+#memberscontent table,
+#librariescontent table {
+  width: 100%;
+}
+
+#memberscontent td,
+#librariescontent td,
+#memberscontent dt,
+#memberscontent dd,
+#librariescontent dt,
+#librariescontent dd,
+#librariescontent ul.vcard li {
+  overflow-wrap: anywhere;
+  word-break: normal;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
 }
 .inverted a i {
   font-size: 1.6em;
@@ -547,19 +570,157 @@ body#page-accessibility div.large-9 ul {
 /* Fix for Google Mobile Usability issues 2020-09-08 */
 
 @media screen and (max-width: 760px) {
-  body,
+  body {
+    font-size: 100%;
+    line-height: 1.5;
+  }
+  .row {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  .panel {
+    padding: 1rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+    line-height: 1.25;
+  }
+  h4 {
+    font-size: 1.2rem;
+    line-height: 1.3;
+  }
+  h5 {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+  .top-bar {
+    margin-bottom: 0.75rem;
+  }
+  .top-bar h1 a,
   .top-bar-section ul li > a {
-    font-size: 150%;
+    font-size: 0.95rem;
+  }
+  .top-bar .toggle-topbar.menu-icon {
+    right: 0.75rem;
   }
   .top-bar .toggle-topbar.menu-icon a {
     text-indent: -70px;
+  }
+  .top-bar-section ul {
+    height: auto;
+  }
+  .top-bar-section ul li > a {
+    line-height: 1.35;
+    padding-top: 0.85rem;
+    padding-bottom: 0.85rem;
+  }
+  .top-bar-section .dropdown li a {
+    padding-left: 1.5rem;
   }
   div.small-logo {
     background-color: #000;
     background-clip: content-box;
   }
+  .orbit-heading h3 {
+    margin-top: 0.25em;
+    font-size: 1.25rem;
+  }
+  .carousel {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  img,
+  a.th img {
+    max-width: 100%;
+    height: auto;
+  }
+  body#page-home .panel .row .columns + .columns {
+    margin-top: 1rem;
+  }
+  body#page-members div.large-9 > .panel > div > a[style*="float:right"] {
+    float: none !important;
+    display: block;
+    max-width: 14rem;
+    margin: 0 auto 1rem;
+  }
+  #memberscontent h4,
+  #memberscontent h5,
+  #librariescontent h4,
+  #librariescontent h5 {
+    display: block;
+    margin-left: 0;
+  }
+  #memberscontent h5,
+  #librariescontent h5 {
+    font-size: 0.95rem;
+    margin-top: 0.2rem;
+  }
+  #memberscontent table,
+  #librariescontent table {
+    display: block;
+    width: 100%;
+    margin-bottom: 1.25rem;
+  }
+  #memberscontent tbody,
+  #librariescontent tbody,
+  #memberscontent tr,
+  #librariescontent tr {
+    display: block;
+    width: 100%;
+  }
+  #memberscontent tr,
+  #librariescontent tr {
+    padding: 0.9rem 0;
+    border-top: 1px solid #d9d9d9;
+  }
+  #memberscontent tr:first-child,
+  #librariescontent tr:first-child {
+    border-top: 0;
+    padding-top: 0.35rem;
+  }
+  #memberscontent td,
+  #librariescontent td {
+    display: block;
+    width: 100% !important;
+    padding: 0 0 0 0.75rem;
+    font-size: 0.95rem;
+  }
+  #memberscontent td + td,
+  #librariescontent td + td {
+    margin-top: 0.75rem;
+  }
+  #memberscontent dt,
+  #memberscontent dd,
+  #librariescontent dt,
+  #librariescontent dd,
+  #librariescontent ul.vcard li {
+    font-size: 0.95rem;
+    line-height: 1.45;
+  }
+  body#page-members table img {
+    display: block;
+    width: 96px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  ul.vcard {
+    margin-bottom: 0;
+  }
+  .inverted .row {
+    margin-bottom: 1rem;
+  }
+  .inverted ul.side-nav {
+    margin-bottom: 0;
+  }
+  #lib-filter {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0 0 1rem;
+    text-align: center;
+  }
   [class*="foundicon-"] {
-    margin-left: -0.3em !important;
+    margin-left: 0 !important;
   }
 }
 
