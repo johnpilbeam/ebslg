@@ -124,8 +124,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Bitter", "Helvetica Neue", "Helvetica", Helvetica, Arial,
-    sans-serif !important;
+  font-family:
+    "Bitter", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
 }
 .top-bar-section .has-form {
   background: #0a8a36;
@@ -670,8 +670,11 @@ body#page-accessibility div.large-9 ul {
   }
   #memberscontent tr,
   #librariescontent tr {
-    padding: 0.9rem 0;
+    padding: 0.75rem 0 0.45rem;
     border-top: 1px solid #d9d9d9;
+  }
+  #memberscontent tr {
+    display: flow-root;
   }
   #memberscontent tr:first-child,
   #librariescontent tr:first-child {
@@ -682,12 +685,28 @@ body#page-accessibility div.large-9 ul {
   #librariescontent td {
     display: block;
     width: 100% !important;
-    padding: 0 0 0 0.75rem;
+    padding: 0 0 0 0.45rem;
     font-size: 0.95rem;
   }
   #memberscontent td + td,
   #librariescontent td + td {
     margin-top: 0.75rem;
+  }
+  #memberscontent td:first-child {
+    float: left;
+    width: 96px !important;
+    padding-left: 0.45rem;
+    padding-top: 0;
+    margin-right: 0;
+    margin-top: 0;
+  }
+  #memberscontent td:first-child + td,
+  #memberscontent td:first-child + td + td {
+    width: auto !important;
+    margin-left: calc(96px + 0.5rem);
+  }
+  #memberscontent td:first-child + td {
+    margin-top: 0;
   }
   #memberscontent dt,
   #memberscontent dd,
@@ -696,6 +715,16 @@ body#page-accessibility div.large-9 ul {
   #librariescontent ul.vcard li {
     font-size: 0.95rem;
     line-height: 1.45;
+  }
+  #memberscontent dl,
+  #librariescontent dl,
+  #librariescontent ul.vcard {
+    margin-bottom: 0;
+  }
+  #memberscontent dd:last-child,
+  #librariescontent dd:last-child,
+  #librariescontent ul.vcard li:last-child {
+    margin-bottom: 0;
   }
   body#page-members table img {
     display: block;
