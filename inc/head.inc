@@ -23,6 +23,12 @@
   <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <link
+    rel="preload"
+    as="image"
+    href="/img/banner-globe-europe.png"
+    media="(min-width: 769px)"
+  />
+  <link
     rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Bitter"
   />

@@ -104,6 +104,14 @@ div.ebslgfooter {
 div.orbit-container {
   background: transparent;
 }
+/* Reserve the banner's intrinsic image size before Orbit initializes. */
+@media only screen and (min-width: 769px) {
+  #orbit-randomlibs,
+  #orbit-randomlibs.orbit-container,
+  #orbit-randomlibs .orbit-slides-container {
+    aspect-ratio: 970 / 217;
+  }
+}
 .orbit-caption a {
   color: #fff;
   text-decoration: underline;
