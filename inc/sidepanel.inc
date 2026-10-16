@@ -86,7 +86,7 @@
       <div class="large-2 small-1 columns">
         <ul class="side-nav" style="padding-top: 0; margin-top: 0">
           <li>
-            <a href="https://www.isb.edu/en/apbslg.html"
+            <a href="https://apbslg.org/about/"
               ><i class="gen-enclosed foundicon-globe"></i
             ></a>
           </li>
@@ -95,7 +95,7 @@
       <div class="large-10 small-11 columns">
         <ul class="side-nav" style="padding-top: 0; margin-top: 0">
           <li>
-            <a href="https://www.isb.edu/en/apbslg.html"
+            <a href="https://apbslg.org/about/"
               >APBSLG – Asia-Pacific Business School Librarians’ Group</a
             >
           </li>
@@ -107,7 +107,7 @@
       <div class="large-2 small-1 columns">
         <ul class="side-nav" style="padding-top: 0; margin-top: 0">
           <li>
-            <a href="https://www.isb.edu/en/apbslg.html"
+            <a href="https://cladea.org/en/home/"
               ><i class="gen-enclosed foundicon-globe"></i
             ></a>
           </li>
